@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dna-playstation.vercel.app/sitemap.xml
