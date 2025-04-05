@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     title: "DNA PlayStation - Rental PS3 & PS4 Jatisari, Bekasi",
     description:
       "Sewa PlayStation 3 & 4 di Jatisari, Bekasi dengan harga terbaik! Koleksi game lengkap, sewa harian/mingguan, dan layanan antar jemput tersedia.",
-    url: "https://dna-playstation.vercel.app/", // Ganti dengan domain asli
+    url: "https://dnaplaystation.vercel.app/", // Ganti dengan domain asli
     type: "website",
     // images: [
     //   {

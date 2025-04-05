@@ -6,7 +6,7 @@ const links = [
   { url: "/", changefreq: "daily", priority: 1.0 },
 ];
 
-const stream = new SitemapStream({ hostname: "https://dna-playstation.vercel.app" });
+const stream = new SitemapStream({ hostname: "https://dnaplaystation.vercel.app/" });
 
 streamToPromise(Readable.from(links).pipe(stream)).then((data) =>
   fs.writeFileSync("public/sitemap.xml", data.toString())
